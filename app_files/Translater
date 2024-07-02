@@ -1,0 +1,11 @@
+
+# create a translator object
+translator = Translator()
+# translate a string to Marathi
+translated_text = translator.translate(output_text, src='en', dest='mr').text
+
+
+
+
+# display the translated text
+print(translated_text)
